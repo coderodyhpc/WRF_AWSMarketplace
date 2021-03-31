@@ -21,7 +21,7 @@ ________________________________________________________________________________
     - WRF-4.2.2 ARW nested with vortex following (/home/ec2-user/NESTED3)  
     - WRF-4.2.2 NMM (/home/ec2-user/NMM/NMMR)  
     - WRF-4.2.2 NMM (/home/ec2-user/NMM/NMMR)   
-+ The built case is the January-2000 example  
++ The built case represents the continental U.S. with the Commonwealth of Pennsylvania nested within it.    
 + It works with AWS-parallelcluster v2.10.3  
 + Postprocessing tools: WRF-python, VAPOR and IDV(5.7)  
 
