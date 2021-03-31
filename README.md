@@ -15,9 +15,8 @@ ________________________________________________________________________________
 **Numerical Weather Prediction on AWS Graviton2 with WRF**
   
 * Initial release v1.0      
-        - It has pre-compiled version of WRF-4.2.2 optimized for Intel Skylake & Cascade-Lake instances  
+        - It has pre-compiled version of WRF-4.2.2 optimized for Graviton2 (arm 64 or AArch64) processors  
         - The built case is the January-2000 example  
-        - It has pre-compiled NCL 6.6.2  
-        - It works with AWS-parallelcluster v2.10.1  
+        - It works with AWS-parallelcluster v2.10.3  
 
 
