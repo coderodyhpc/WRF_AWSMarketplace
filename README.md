@@ -2,7 +2,7 @@
 
 **Numerical Weather Prediction on AWS with WRF**
 
-:black_square_button: v1.1      
+:black_medium_square: v1.1      
         - It works with AWS-parallelcluster v2.10.3  
 * Initial release      
         - It has pre-compiled version of WRF-4.2.2 optimized for Intel Skylake & Cascade-Lake instances  
