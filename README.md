@@ -29,7 +29,7 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________________________________________________
 **Numerical Weather Prediction on AWS Graviton2 with WRF**
   
-:white_medium_square: v3.0        
+:white_medium_square: v3.1        
 + It has pre-compiled versions of WRF-4.3 optimized for Graviton2 (arm 64/AArch64) processors with the following executables:  
     - WRF-4.3 ARW (/home/centos/WRF-4.3). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on January 1st (2021).     
     - WRF-4.3 ARW nested with preset moves (/home/centos/NESTED2)  
