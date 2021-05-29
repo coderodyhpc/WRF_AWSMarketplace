@@ -31,12 +31,11 @@ ________________________________________________________________________________
   
 :white_medium_square: v3.1        
 + It has pre-compiled versions of WRF-4.3 optimized for Graviton2 (arm 64/AArch64) processors with the following executables:  
-    - WRF-4.3 ARW (/home/centos/WRF-4.3)  
+    - WRF-4.3 ARW (/home/centos/WRF-4.3). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for three and a half days starting on January 1st.     
     - WRF-4.3 ARW nested with preset moves (/home/centos/NESTED2)  
     - WRF-4.3 ARW nested with vortex following (/home/centos/NESTED3)  
     - WRF-4.3 NMM (/home/centos/NMM)  
     - WRF-4.3 NMM nested with preset moves (/home/centos/NMM2)  
-The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for three and a half days starting on January 1st.     
 + It has pre-compiled versions of WRF-Chem (4.3) optimized for Graviton2 processors with the following executables:  
     - WRF-Chem - KPP0 (/home/centos/WRF-CHEM/KPP0)  
     - WRF-Chem - KPP1 (/home/centos/WRF-CHEM/KPP1)  
