@@ -63,6 +63,25 @@ ________________________________________________________________________________
 + Postprocessing tools: NCL, GrADS, ARWpost, WRF-python and NCEP Unified Post Processor (UPP). 
 + The AMI works with AWS-parallelcluster v2.11.2  
 
+___________________________________________________________________________________________________________________________________________
+**Numerical Weather Prediction on AWS Graviton2 with WRF**
+  
+:white_medium_square: v3.1.2        
++ It has pre-compiled versions of WRF-4.3 optimized for Graviton2 (arm 64/AArch64) processors with the following executables:  
+    - WRF-4.3 ARW (/home/centos/WRF-4.3). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on September 1st (2021).     
+    - WRF-4.3 ARW nested with preset moves (/home/centos/NESTED2)  
+    - WRF-4.3 ARW nested with vortex following (/home/centos/NESTED3)  
+    - WRF-4.3 NMM (/home/centos/NMM)  
++ It has pre-compiled versions of WRF-Chem (4.3) optimized for Graviton2 processors with the following executables:  
+    - WRF-Chem - KPP0 (/home/centos/WRF-CHEM/KPP0)  
+    - WRF-Chem - KPP1 (/home/centos/WRF-CHEM/KPP1)  
++ It has pre-compiled versions of WRF Data Assimilation (WRFDA) optimized for Graviton2 processors with the following executables:  
+    - WRFDA - (/home/centos/DA/WRFDA)  
+    - WRFPLUS - (/home/centos/DA/WRFPLUS)  
++ Preprocessing tools: WPS (SM - /home/centos/PREPRO/WPS; DM - /home/centos/PREPRO/WPS_DM) & Script to automatically download GFS data
++ Postprocessing tools: NCL, GrADS, ARWpost, WRF-python and NCEP Unified Post Processor (UPP). 
++ The AMI works with AWS-parallelcluster v2.11.2  
+
          
 ___________________________________________________________________________________________________________________________________________
 **Numerical Weather Prediction on AWS with WRF**
