@@ -126,7 +126,7 @@ ________________________________________________________________________________
 + It has pre-compiled versions of WRF-Chem (4.3) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
     - WRF-Chem - KPP1 (/home/centos/WRF-CHEM)  
 + Preprocessing tools: WPS (SM - /home/centos/PREPRO/WPS; DM - /home/centos/PREPRO/WPS_DM) 
-+ Postprocessing tools: NCL, WRF-python, NCEP Unified Post Processor (UPP) and IDV (v5.7) 
++ Postprocessing tools: NCL, WRF-python, NCEP Unified Post Processor (UPP), ARWPost, GrADS, and IDV (v5.7) 
 + Data Assimilation tool: WRFDA (/home/centos/DA)
 + WRF non-linear, WRF tangent-linear and WRF adjoint models app: WRFPLUS (/home/centos/DA)
 + The AMI works with AWS-parallelcluster v2.11.3  
