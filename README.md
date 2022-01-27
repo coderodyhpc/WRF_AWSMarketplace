@@ -122,7 +122,7 @@ ________________________________________________________________________________
   
 :black_medium_square: v3.2        
 + It has pre-compiled versions of WRF-4.3.3 optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
-    - WRF-4.3.3 ARW (/home/centos/WRF-4.3.3). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on January 1st (2022).     
+    - WRF-4.3.3 ARW (/home/centos/WRF-4.3.3). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on January 1st (2022)     
 + It has pre-compiled versions of WRF-Chem (4.3) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
     - WRF-Chem - KPP1 (/home/centos/WRF-CHEM)  
 + Preprocessing tools: WPS (SM - /home/centos/PREPRO/WPS; DM - /home/centos/PREPRO/WPS_DM) 
