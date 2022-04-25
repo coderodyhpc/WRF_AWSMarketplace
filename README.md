@@ -130,3 +130,18 @@ ________________________________________________________________________________
 + Data Assimilation tool: WRFDA (/home/centos/DA)
 + WRF non-linear, WRF tangent-linear and WRF adjoint models app: WRFPLUS (/home/centos/DA)
 + The AMI works with AWS-parallelcluster v2.11.3  
+
+___________________________________________________________________________________________________________________________________________
+**Air quality modeling with CMAQ & WRF-CMAQ on AWS**
+  
+:black_medium_square: v1.1        
++ It has pre-compiled versions of CMAQ v5.3.3 optimized for Intel Ice Lake/Cascade Lake/Skylake processors with the following executables:  
+    - Standard CMAQ (CCTM_v533.exe) at /home/ubuntu/CMAQ/CCTM/scripts/BLD_CCTM_v533_gcc
+    - CMAQ-DDM3D (CCTM_DDM3D_v533.exe) at /home/ubuntu/CMAQ-DDM3D/CCTM/scripts/BLD_CCTM_v533_DDM3D_gcc
+    - CMAQ-ISAM (CCTM_ISAM_v533.exe) at /home/ubuntu/CMAQ-ISAM/CCTM/scripts/BLD_CCTM_v533_ISAM_gcc
+    - WRF-CMAQ (wrf.exe) at /home/ubuntu/WRF-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.3/test/em_real
+    
+The default cases represent the standard benchmark cases over the Southeast U.S. with a horizontal resolution of 12 km. See https://www.epa.gov/cmaq/cmaq-inputs-and-test-case-data for details.     
++ Preprocessing tools: MCIP (/home/centos/CMAQ/PREP/mcip), create_omi (/home/centos/CMAQ/PREP/create_omi), BCON (/home/centos/CMAQ/PREP/bcon), ICON (/home/centos/CMAQ/PREP/icon), SMOKE (/home/centos/PREPRO/SMOKE), WPS (/home/centos/PREPRO/WPS), WRF (/home/centos/PREPRO/WPS) 
++ Postprocessing tools: VERDI v2.1, IDV. 
++ The AMI works with AWS-parallelcluster v3.1.3       
