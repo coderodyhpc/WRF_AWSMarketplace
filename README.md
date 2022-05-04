@@ -145,3 +145,17 @@ The default cases represent the standard benchmark cases over the Southeast U.S.
 + Preprocessing tools: MCIP (/home/centos/CMAQ/PREP/mcip), create_omi (/home/centos/CMAQ/PREP/create_omi), BCON (/home/centos/CMAQ/PREP/bcon), ICON (/home/centos/CMAQ/PREP/icon), SMOKE (/home/centos/PREPRO/SMOKE), WPS (/home/centos/PREPRO/WPS), WRF (/home/centos/PREPRO/WPS) 
 + Postprocessing tools: VERDI v2.1, IDV. 
 + The AMI works with AWS-parallelcluster v3.1.3       
+
+___________________________________________________________________________________________________________________________________________
+**Numerical Weather Prediction on AWS with WRF**
+  
+:black_medium_square: v4.1.0        
++ It has pre-compiled versions of WRF-4.4 optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
+    - WRF-4.4 ARW (/home/ubuntu/WRF-4.4). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on January 1st (2022)     
++ It has pre-compiled versions of WRF-Chem (4.4) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
+    - WRF-Chem - KPP1 (/home/ubuntu/WRF-CHEM)  
++ Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM) 
++ Postprocessing tools: NCL, WRF-python, NCEP Unified Post Processor (UPP), ARWPost, GrADS, and IDV (v6.0) 
++ Data Assimilation tool: WRFDA (/home/ubuntu/DA/WRFDA) 
++ WRF non-linear, WRF tangent-linear and WRF adjoint models app: WRFPLUS (/home/ubuntu/DA/WRFPLUS)
++ The AMI works with AWS-parallelcluster v3.1.3  
