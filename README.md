@@ -149,7 +149,7 @@ The default cases represent the standard benchmark cases over the Southeast U.S.
 ___________________________________________________________________________________________________________________________________________
 **Numerical Weather Prediction on AWS with WRF**
   
-:black_medium_square: v4.1.0        
+:black_medium_square: v4.0.0        
 + It has pre-compiled versions of WRF-4.4 optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
     - WRF-4.4 ARW (/home/ubuntu/WRF-4.4). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on January 1st (2022)     
 + It has pre-compiled versions of WRF-Chem (4.4) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
