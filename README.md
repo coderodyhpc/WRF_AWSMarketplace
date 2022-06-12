@@ -179,3 +179,22 @@ The default cases represent the standard benchmark cases over the Southeast U.S.
 + Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM), MCIP (/home/ubuntu/CMAQ/PREP/mcip), create_omi (/home/ubuntu/CMAQ/PREP/create_omi), BCON (/home/ubuntu/CMAQ/PREP/bcon), ICON (/home/ubuntu/CMAQ/PREP/icon), SMOKE (/home/ubuntu/PREPRO/SMOKE), WPS (/home/ubuntu/PREPRO/WPS) 
 + Postprocessing tools: NCL, WRF-python, ARWPost, GrADS, IDV (v6.0), VERDI v2.1.3 
 + The AMI works with AWS-parallelcluster v3.1.4  
+___________________________________________________________________________________________________________________________________________
+**Numerical prediction with WRF, MPAS, CMAQ & CAMx on AWS (AMD EPYC3)**
+  
+:black_medium_square: v2.0.1        
++ It has pre-compiled versions of WRF-4.4 optimized for AMD Zen3processors (e.g. hpc6a.48xlarge instances) with the following executable:  
+    - WRF-4.4 ARW (/home/ubuntu/WRF-4.4). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on January 1st (2022)     
++ It has pre-compiled versions of WRF-Chem (4.4) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
+    - WRF-Chem - KPP1 (/home/ubuntu/WRF-CHEM)  
++ It has pre-compiled versions of CMAQ v5.3.3 optimized for Intel Ice Lake/Cascade Lake/Skylake processors with the following executables:  
+    - Standard CMAQ (CCTM_v533.exe) at /home/ubuntu/CMAQ/CCTM/scripts/BLD_CCTM_v533_gcc
+    - CMAQ-DDM3D (CCTM_DDM3D_v533.exe) at /home/ubuntu/CMAQ-DDM3D/CCTM/scripts/BLD_CCTM_v533_DDM3D_gcc
+    - CMAQ-ISAM (CCTM_ISAM_v533.exe) at /home/ubuntu/CMAQ-ISAM/CCTM/scripts/BLD_CCTM_v533_ISAM_gcc
+    - WRF-CMAQ (wrf.exe) at /home/ubuntu/WRF-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.4/test/em_real   
+The default cases represent the standard benchmark cases over the Southeast U.S. with a horizontal resolution of 12 km. See https://www.epa.gov/cmaq/cmaq-inputs-and-test-case-data for details.     
++ Data Assimilation tool: WRFDA (/home/ubuntu/DA/WRFDA) 
++ WRF non-linear, WRF tangent-linear and WRF adjoint models app: WRFPLUS (/home/ubuntu/DA/WRFPLUS)
++ Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM), MCIP (/home/ubuntu/CMAQ/PREP/mcip), create_omi (/home/ubuntu/CMAQ/PREP/create_omi), BCON (/home/ubuntu/CMAQ/PREP/bcon), ICON (/home/ubuntu/CMAQ/PREP/icon), SMOKE (/home/ubuntu/PREPRO/SMOKE), WPS (/home/ubuntu/PREPRO/WPS) 
++ Postprocessing tools: NCL, WRF-python, ARWPost, GrADS, IDV (v6.0), VERDI v2.1.3 
++ The AMI works with AWS-parallelcluster v3.1.4  
