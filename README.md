@@ -135,12 +135,12 @@ ________________________________________________________________________________
     - WRF-4.4 ARW (/home/ubuntu/WRF-4.4)     
     - WRF-4.4 ARW nested with preset moves (/home/ubuntu/NESTED2)  
     - WRF-4.4 ARW nested with vortex following (/home/ubuntu/NESTED3)  
-    - WRF-Chem - (/home/ubuntu/WRF-CHEM)  
-    - WRFDA - (/home/ubuntu/DA/WRFDA)  
-    - WRFPLUS - (/home/ubuntu/DA/WRFPLUS)
+    - WRF-Chem (/home/ubuntu/WRF-CHEM)  
+    - WRFDA (/home/ubuntu/DA/WRFDA)  
+    - WRFPLUS (/home/ubuntu/DA/WRFPLUS)
     - A default case representing the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile); the preset computation is for 2 days starting on January 1st (2022).  
 + Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM)  
-+ Script to automatically download GFS data
++ Script to accelerate the download of GFS data
 + Postprocessing tools: NCL, GrADS, ARWpost, WRF-python 
 + The AMI works with AWS-parallelcluster v3.1.4  
 
