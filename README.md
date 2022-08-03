@@ -177,6 +177,22 @@ The default cases represent the standard benchmark cases over the Southeast U.S.
 + The AMI works with AWS-parallelcluster v3.1.3       
 
 ___________________________________________________________________________________________________________________________________________
+**Air quality modeling with CMAQ & WRF-CMAQ on AWS**
+  
+:black_medium_square: v1.2        
++ It has pre-compiled versions of CMAQ v5.3.3 optimized for Intel Ice Lake/Cascade Lake/Skylake processors with the following executables:  
+    - Standard CMAQ (CCTM_v533.exe) at /home/ubuntu/CMAQ/CCTM/scripts/BLD_CCTM_v533_gcc
+    - CMAQ-DDM3D (CCTM_DDM3D_v533.exe) at /home/ubuntu/CMAQ-DDM3D/CCTM/scripts/BLD_CCTM_v533_DDM3D_gcc
+    - CMAQ-ISAM (CCTM_ISAM_v533.exe) at /home/ubuntu/CMAQ-ISAM/CCTM/scripts/BLD_CCTM_v533_ISAM_gcc
+    - WRF-CMAQ (standard output) at /home/ubuntu/WRF-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.4/test/em_real 
+    - WRF-CMAQ (parallel output with HDF5 compression) at /home/ubuntu/WRFPIO-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.4/test/em_real
+    
+The default cases represent the standard benchmark cases over the Southeast U.S. with a horizontal resolution of 12 km. See https://www.epa.gov/cmaq/cmaq-inputs-and-test-case-data for details.     
++ Preprocessing tools: MCIP (/home/ubuntu/CMAQ/PREP/mcip), create_omi (/home/ubuntu/CMAQ/PREP/create_omi), BCON (/home/ubuntu/CMAQ/PREP/bcon), ICON (/home/ubuntu/CMAQ/PREP/icon), SMOKE (/home/ubuntu/PREPRO/SMOKE), WPS (/home/ubuntu/PREPRO/WPS), WRF (/home/ubuntu/PREPRO/WPS) 
++ Postprocessing tools: VERDI v2.1.3, IDV v6.1. 
++ The AMI works with AWS-parallelcluster v3.2       
+
+___________________________________________________________________________________________________________________________________________
 **Numerical prediction with WRF, MPAS, CMAQ & CAMx on AWS (AMD EPYC3)**
   
 :black_medium_square: v2.0.0        
