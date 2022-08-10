@@ -185,7 +185,8 @@ ________________________________________________________________________________
     - CMAQ-DDM3D (CCTM_DDM3D_v533.exe) at /home/ubuntu/CMAQ-DDM3D/CCTM/scripts/BLD_CCTM_v533_DDM3D_gcc
     - CMAQ-ISAM (CCTM_ISAM_v533.exe) at /home/ubuntu/CMAQ-ISAM/CCTM/scripts/BLD_CCTM_v533_ISAM_gcc
     - WRF-CMAQ (standard output) at /home/ubuntu/WRF-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.4/test/em_real 
-    - WRF-CMAQ (parallel output with HDF5 compression) at /home/ubuntu/WRFPIO-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.4/test/em_real
+    - WRF-CMAQ (output uses the latest HDF5 compression algorithm) at /home/ubuntu/WRFPIO-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.4/test/em_real
++ It has pre-compiled versions of CAMx v7.20:  
     
 The default cases represent the standard benchmark cases over the Southeast U.S. with a horizontal resolution of 12 km. See https://www.epa.gov/cmaq/cmaq-inputs-and-test-case-data for details.     
 + Preprocessing tools: MCIP (/home/ubuntu/CMAQ/PREP/mcip), create_omi (/home/ubuntu/CMAQ/PREP/create_omi), BCON (/home/ubuntu/CMAQ/PREP/bcon), ICON (/home/ubuntu/CMAQ/PREP/icon), SMOKE (/home/ubuntu/PREPRO/SMOKE), WPS (/home/ubuntu/PREPRO/WPS), WRF (/home/ubuntu/PREPRO/WPS) 
