@@ -14,7 +14,7 @@ The AMI includes:
 + The interface for WRF is fully functional for a single domain.
 + Download of meteorological data now includes NAM and GD?? files in addition to GFS (0.25 & 0.5 deg resolution)
 + The interface with CMAQ includes the option to create a custom case (based on WRF output)
-
++ MCIP, ICON and BCON admit the customization of several parameters
 
 ___________________________________________________________________________________________________________________________________________
 
