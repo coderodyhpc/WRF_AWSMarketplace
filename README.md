@@ -8,7 +8,7 @@ The AMI includes:
 + Pre-compiled WRF-4.4.2 optimized for Graviton3 processors  
 + Pre-compiled CMAQv5.4 optimized for Graviton3 processors  
 + All files necessary to run the 2018 N.E. benchmark (12NE3) for CMAQv5.4
-+ Implementation to run the CONUS benchmark (12NE3) for CMAQv5.4 (files with meteorological data and emissions must be uploaded before performing the benchmark)
++ Implementation to run the CONUS benchmark (12US1) for CMAQv5.4 (files with meteorological data and emissions must be uploaded before performing the benchmark)
 
 :white_medium_square: New features included in v0.1.0
 + The interface for WRF is fully functional for a single domain.
