@@ -106,4 +106,24 @@ ________________________________________________________________________________
 + Postprocessing tools: GrADS, ARWpost, WRF-python 
 + The AMI works with AWS-parallelcluster v3.4.1  
 
+___________________________________________________________________________________________________________________________________________
+**Numerical Weather Prediction on AWS Graviton2/3 with WRF**
+  
+:white_medium_square: v5.0.0        
++ It has pre-compiled versions of WRF-4.4.2 optimized for Graviton2/3 processors with the following executables:  
+    - WRF-4.4.2 ARW (/home/ubuntu/WRF-4.4.2)     
+    - WRF-4.4.2 ARW nested with preset moves (/home/ubuntu/NESTED2)  
+    - WRF-4.4.2 ARW nested with vortex following (/home/ubuntu/NESTED3)  
+    - WRF-Chem (/home/ubuntu/WRF-CHEM)  
+    - WRF-Fire (/home/ubuntu/WRF-Fire)  
+    - WRF-SFIRE (/home/ubuntu/WRF-SFIRE)  
+    - WRFDA (/home/ubuntu/DA/WRFDA)  
+    - WRFPLUS (/home/ubuntu/DA/WRFPLUS)
+    - A default case representing the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile); the preset computation is for 2 days starting on January 1st (2023).  
++ Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM)  
++ Script to accelerate the download of GFS data
++ Postprocessing tools: GrADS, ARWpost, WRF-python 
++ The AMI works with AWS-parallelcluster v3.4.1  
+
+
 
