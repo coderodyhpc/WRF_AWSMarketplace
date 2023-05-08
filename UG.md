@@ -1,4 +1,4 @@
-# GUI_AWSMarketplace
+# Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton3 & Graviton3E - USER GUIDE
 
 **Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton3 & Graviton3E**
 
