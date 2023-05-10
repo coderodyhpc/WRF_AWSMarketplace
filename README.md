@@ -123,7 +123,7 @@ ________________________________________________________________________________
 + Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM)  
 + Script to accelerate the download of GFS data
 + Postprocessing tools: GrADS, ARWpost, WRF-python 
-+ The AMI works with AWS-parallelcluster v3.4.1  
++ The AMI works with AWS-parallelcluster v3.5.1  
 
 
 
