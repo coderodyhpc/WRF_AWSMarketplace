@@ -1,5 +1,13 @@
 **Numerical Weather Prediction on AWS Graviton2 with WRF**
   
+:white_medium_square: v5.0.1        
++ Minor revision to v5.0.0 with:  
+    - Update NICE-DCV drivers
+    - WRF-CMAQ (/home/ubuntu/WRF-CMAQ/CMAQ-v5.4/CCTM/scripts/WRF-4.5)     
+___________________________________________________________________________________________________________________________________________
+
+**Numerical Weather Prediction on AWS Graviton2 with WRF**
+  
 :white_medium_square: v5.0.0        
 + It has pre-compiled versions of WRF-4.5 optimized for Graviton2/3 processors with the following executables:  
     - WRF-4.5 ARW (/home/ubuntu/WRF-4.5)     
