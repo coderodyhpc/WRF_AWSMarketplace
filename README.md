@@ -3,8 +3,9 @@
 **Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton3 & Graviton3E**
 
 :white_medium_square: New features included in v0.1.1
-+ Rendering is now much faster.
++ Rendering has been accelerated.
 + CMAQ postprocessing includes visualization for all species.
++ The console for CMAQ visualization has been upgraded.
 + A new tool to export images has been added to the GUI.
 ___________________________________________________________________________________________________________________________________________
 :black_medium_square: v0.1.0
