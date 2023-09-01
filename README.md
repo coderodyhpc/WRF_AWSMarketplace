@@ -4,9 +4,9 @@
 
 :white_medium_square: New features included in v0.1.2
 + Enhancements to many widgets.
-+ The GUI now allow the superimposition of borders, coastlines, lakes, U.S. national parks and urban areas.
-+ PM and AQIs allow several color palettes.
-+ Export widget facilitates orientation set-up and includes several new paper formats.
++ The GUI now allow the superimposition of borders, coastlines, lakes, U.S. national parks and urban areas as an aid to postprocessing.
++ PM and AQIs outputs allow several color palettes.
++ The updated 'Export' widget now facilitates orientation set-up and includes several new paper formats.
 ___________________________________________________________________________________________________________________________________________
 :white_medium_square: New features included in v0.1.1
 + Rendering has been accelerated.
