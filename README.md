@@ -2,6 +2,12 @@
 
 **Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton3 & Graviton3E**
 
+:white_medium_square: New features included in v0.1.2
++ Enhancements to many widgets.
++ The GUI now allow the superimposition of borders, coastlines, lakes, U.S. national parks and urban areas.
++ PM and AQIs allow several color palettes.
++ Export widget facilitates orientation set-up and includes several new paper formats.
+___________________________________________________________________________________________________________________________________________
 :white_medium_square: New features included in v0.1.1
 + Rendering has been accelerated.
 + CMAQ postprocessing includes visualization for all species.
