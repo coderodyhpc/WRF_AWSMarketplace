@@ -65,6 +65,7 @@ ________________________________________________________________________________
 + It has pre-compiled versions of WRF-Chem (4.5.1) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
     - WRF-Chem - KPP1 (/home/ubuntu/WRF-CHEM)  
 + Script to accelerate the download of GFS data
++ Script to accelerate the download of GFS data
 + Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM) 
 + Postprocessing tools: NCL, WRF-python, ARWPost, GrADS, and IDV  
 + Data Assimilation tool: WRFDA (/home/ubuntu/DA/WRFDA) 
