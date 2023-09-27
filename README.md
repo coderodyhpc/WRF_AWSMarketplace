@@ -57,6 +57,26 @@ ________________________________________________________________________________
 + The AMI works with AWS-parallelcluster v3.1.3  
 
 ___________________________________________________________________________________________________________________________________________
+**Odycloud Numerical Weather Prediction & Air Quality Modeling on AWS**
+  
+:black_medium_square: v5.0.0        
++ It has pre-compiled versions of WRF-4.5.1 optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
+    - WRF-4.5.1 ARW (/home/ubuntu/WRF-4.5). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on May 1st (2023)     
++ It has pre-compiled versions of WRF-Chem (4.5.1) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
+    - WRF-Chem - KPP1 (/home/ubuntu/WRF-CHEM)  
++ Script to accelerate the download of GFS data
++ Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM) 
++ Postprocessing tools: NCL, WRF-python, ARWPost, GrADS, and IDV  
++ Data Assimilation tool: WRFDA (/home/ubuntu/DA/WRFDA) 
++ WRF non-linear, WRF tangent-linear and WRF adjoint models app: WRFPLUS (/home/ubuntu/DA/WRFPLUS)
++ The AMI works with AWS-parallelcluster v3.7.1  
+
+
+___________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________
 **Numerical Weather Prediction on AWS Graviton2 with WRF**
   
 :white_medium_square: Initial release v1.0        
