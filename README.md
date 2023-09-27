@@ -64,7 +64,7 @@ ________________________________________________________________________________
     - WRF-4.5.1 ARW (/home/ubuntu/WRF-4.5). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on May 1st (2023)     
 + It has pre-compiled versions of WRF-Chem (4.5.1) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
     - WRF-Chem - KPP1 (/home/ubuntu/WRF-CHEM)  
-+ Script to accelerate the download of GFS data
++ It includes CMAQv5.4 to perform air quality modeling
 + Script to accelerate the download of GFS data
 + Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM) 
 + Postprocessing tools: NCL, WRF-python, ARWPost, GrADS, and IDV  
