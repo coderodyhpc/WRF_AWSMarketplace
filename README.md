@@ -67,207 +67,25 @@ ________________________________________________________________________________
 + It includes CMAQv5.4 to perform air quality modeling
 + Script to accelerate the download of GFS data
 + Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM) 
-+ Postprocessing tools: NCL, WRF-python, ARWPost, GrADS, and IDV  
++ Postprocessing tools: WRF-python, ARWPost, GrADS, and IDV  
 + Data Assimilation tool: WRFDA (/home/ubuntu/DA/WRFDA) 
 + WRF non-linear, WRF tangent-linear and WRF adjoint models app: WRFPLUS (/home/ubuntu/DA/WRFPLUS)
 + The AMI works with AWS-parallelcluster v3.7.1  
-
-
 ___________________________________________________________________________________________________________________________________________
-___________________________________________________________________________________________________________________________________________
-___________________________________________________________________________________________________________________________________________
-___________________________________________________________________________________________________________________________________________
-___________________________________________________________________________________________________________________________________________
-**Numerical Weather Prediction on AWS Graviton2 with WRF**
+**Odycloud Numerical Weather Prediction & Air Quality Modeling on AWS**
   
-:white_medium_square: Initial release v1.0        
-+ It has pre-compiled versions of WRF-4.2.2 optimized for Graviton2 (arm 64/AArch64) processors with the following executables:  
-    - WRF-4.2.2 ARW (/home/centos/WRF-4.2.2)  
-    - WRF-4.2.2 ARW nested with preset moves (/home/centos/NESTED2)  
-    - WRF-4.2.2 ARW nested with vortex following (/home/centos/NESTED3)  
-    - WRF-4.2.2 NMM (/home/centos/NMM/NMMR)  
-    - WRF-4.2.2 NMM_tropical_cyclone (/home/centos/NMM/NMM_tropical_cyclone)   
-+ The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for three and a half days starting on January 1st.     
-+ The AMI works with AWS-parallelcluster v2.10.3  
-+ Preprocessing tools: WPS; postprocessing tools: WRF-python and NCEP Unified Post Processor (UPP). 
-
-
-___________________________________________________________________________________________________________________________________________
-**Numerical Weather Prediction on AWS Graviton2 with WRF**
-  
-:white_medium_square: v3.1        
-+ It has pre-compiled versions of WRF-4.3 optimized for Graviton2 (arm 64/AArch64) processors with the following executables:  
-    - WRF-4.3 ARW (/home/centos/WRF-4.3). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on January 1st (2021).     
-    - WRF-4.3 ARW nested with preset moves (/home/centos/NESTED2)  
-    - WRF-4.3 ARW nested with vortex following (/home/centos/NESTED3)  
-    - WRF-4.3 NMM (/home/centos/NMM)  
-    - WRF-4.3 NMM nested with preset moves (/home/centos/NMM2)  
-+ It has pre-compiled versions of WRF-Chem (4.3) optimized for Graviton2 processors with the following executables:  
-    - WRF-Chem - KPP0 (/home/centos/WRF-CHEM/KPP0)  
-    - WRF-Chem - KPP1 (/home/centos/WRF-CHEM/KPP1)  
-+ Preprocessing tools: WPS (SM - /home/centos/PREPRO/WPS; DM - /home/centos/PREPRO/WPS_DM) 
-+ Postprocessing tools: NCL, WRF-python and NCEP Unified Post Processor (UPP). 
-+ The AMI works with AWS-parallelcluster v2.10.4  
-
-+ For organizations that prefer to run V3. it has pre-compiled versions of WRF and WPS optimized for Graviton2 (arm 64/AArch64) processors with the following executables: 
-    - WRF-3.9.1.1 ARW (/home/centos/V3/WRFV3-3.9.1.1)  
-    - WPSv3 (/home/centos/V3/WPS-RELEASE-3-8-1)  
-
-___________________________________________________________________________________________________________________________________________
-**Numerical Weather Prediction on AWS Graviton2 with WRF**
-  
-:white_medium_square: v3.1.1        
-+ It has pre-compiled versions of WRF-4.3 optimized for Graviton2 (arm 64/AArch64) processors with the following executables:  
-    - WRF-4.3 ARW (/home/centos/WRF-4.3). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on September 1st (2021).     
-    - WRF-4.3 ARW nested with preset moves (/home/centos/NESTED2)  
-    - WRF-4.3 ARW nested with vortex following (/home/centos/NESTED3)  
-    - WRF-4.3 NMM (/home/centos/NMM)  
-+ It has pre-compiled versions of WRF-Chem (4.3) optimized for Graviton2 processors with the following executables:  
-    - WRF-Chem - KPP0 (/home/centos/WRF-CHEM/KPP0)  
-    - WRF-Chem - KPP1 (/home/centos/WRF-CHEM/KPP1)  
-+ Preprocessing tools: WPS (SM - /home/centos/PREPRO/WPS; DM - /home/centos/PREPRO/WPS_DM) & Script to automatically download GFS data
-+ Postprocessing tools: NCL, GrADS, ARWpost, WRF-python and NCEP Unified Post Processor (UPP). 
-+ The AMI works with AWS-parallelcluster v2.11.2  
-
-___________________________________________________________________________________________________________________________________________
-**Numerical Weather Prediction on AWS Graviton2 with WRF**
-  
-:white_medium_square: v3.1.2        
-+ It has pre-compiled versions of WRF-4.3 optimized for Graviton2 (arm 64/AArch64) processors with the following executables:  
-    - WRF-4.3 ARW (/home/centos/WRF-4.3). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on September 1st (2021).     
-    - WRF-4.3 ARW nested with preset moves (/home/centos/NESTED2)  
-    - WRF-4.3 ARW nested with vortex following (/home/centos/NESTED3)  
-    - WRF-4.3 NMM (/home/centos/NMM)  
-+ It has pre-compiled versions of WRF-Chem (4.3) optimized for Graviton2 processors with the following executables:  
-    - WRF-Chem - KPP0 (/home/centos/WRF-CHEM/KPP0)  
-    - WRF-Chem - KPP1 (/home/centos/WRF-CHEM/KPP1)  
-+ It has pre-compiled versions of WRF Data Assimilation (WRFDA) optimized for Graviton2 processors with the following executables:  
-    - WRFDA - (/home/centos/DA/WRFDA)  
-    - WRFPLUS - (/home/centos/DA/WRFPLUS)  
-+ Preprocessing tools: WPS (SM - /home/centos/PREPRO/WPS; DM - /home/centos/PREPRO/WPS_DM) & Script to automatically download GFS data
-+ Postprocessing tools: NCL, GrADS, ARWpost, WRF-python and NCEP Unified Post Processor (UPP). 
-+ The AMI works with AWS-parallelcluster v2.11.2  
-
-___________________________________________________________________________________________________________________________________________
-**Numerical Weather Prediction on AWS Graviton2 with WRF**
-  
-:white_medium_square: v4.0.0        
-+ It has pre-compiled versions of WRF-4.4 optimized for Graviton2 processors with the following executables:  
-    - WRF-4.4 ARW (/home/ubuntu/WRF-4.4)     
-    - WRF-4.4 ARW nested with preset moves (/home/ubuntu/NESTED2)  
-    - WRF-4.4 ARW nested with vortex following (/home/ubuntu/NESTED3)  
-    - WRF-Chem (/home/ubuntu/WRF-CHEM)  
-    - WRFDA (/home/ubuntu/DA/WRFDA)  
-    - WRFPLUS (/home/ubuntu/DA/WRFPLUS)
-    - A default case representing the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile); the preset computation is for 2 days starting on January 1st (2022).  
-+ Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM)  
-+ Script to accelerate the download of GFS data
-+ Postprocessing tools: NCL, GrADS, ARWpost, WRF-python 
-+ The AMI works with AWS-parallelcluster v3.1.4  
-
-___________________________________________________________________________________________________________________________________________
-**Numerical Weather Prediction on AWS Graviton2/3 with WRF**
-  
-:white_medium_square: v4.2.0        
-+ It has pre-compiled versions of WRF-4.4.2 optimized for Graviton2/3 processors with the following executables:  
-    - WRF-4.4.2 ARW (/home/ubuntu/WRF-4.4.2)     
-    - WRF-4.4.2 ARW nested with preset moves (/home/ubuntu/NESTED2)  
-    - WRF-4.4.2 ARW nested with vortex following (/home/ubuntu/NESTED3)  
-    - WRF-Chem (/home/ubuntu/WRF-CHEM)  
-    - WRF-Fire (/home/ubuntu/WRF-Fire)  
-    - WRF-SFIRE (/home/ubuntu/WRF-SFIRE)  
-    - WRFDA (/home/ubuntu/DA/WRFDA)  
-    - WRFPLUS (/home/ubuntu/DA/WRFPLUS)
-    - A default case representing the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile); the preset computation is for 2 days starting on January 1st (2023).  
-+ Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM)  
-+ Script to accelerate the download of GFS data
-+ Postprocessing tools: GrADS, ARWpost, WRF-python 
-+ The AMI works with AWS-parallelcluster v3.4.1  
-
-
-     
-___________________________________________________________________________________________________________________________________________
-**Air pollution modeling with CMAQ & WRF-CMAQ on AWS**
-  
-:black_medium_square: v1.0        
-+ It has pre-compiled versions of CMAQ v5.3.3 optimized for Intel Ice Lake processors with the following executables:  
-    - Standard CMAQ (CCTM_v533.exe) at /home/centos/CMAQ/CCTM/scripts/BLD_CCTM_v533_gcc
-    - CMAQ-DDM3D (CCTM_DDM3D_v533.exe) at /home/centos/CMAQ-DDM3D/CCTM/scripts/BLD_CCTM_v533_gcc
-    - CMAQ-ISAM (CCTM_ISAM_v533.exe) at /home/centos/CMAQ-ISAM/CCTM/scripts/BLD_CCTM_v533_gcc
-    - WRF-CMAQ (wrf.exe) at /home/centos/WRF-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.3/test/em_realWRF-4.3
-    
-The default cases represent the standard benchmark cases over the Southeast U.S. with a horizontal resolution of 12 km. See https://www.epa.gov/cmaq/cmaq-inputs-and-test-case-data for details.     
-+ Preprocessing tools: MCIP (/home/centos/CMAQ/PREP/mcip), create_omi (/home/centos/CMAQ/PREP/create_omi), BCON (/home/centos/CMAQ/PREP/bcon), ICON (/home/centos/CMAQ/PREP/icon), SMOKE (/home/centos/PREPRO/SMOKE), WPS (/home/centos/PREPRO/WPS) 
-+ Postprocessing tools: VERDI v2.1, IDV. 
-+ The AMI works with AWS-parallelcluster v2.12.2       
-
-___________________________________________________________________________________________________________________________________________
-**Air quality modeling with CMAQ & WRF-CMAQ on AWS**
-  
-:black_medium_square: v1.1        
-+ It has pre-compiled versions of CMAQ v5.3.3 optimized for Intel Ice Lake/Cascade Lake/Skylake processors with the following executables:  
-    - Standard CMAQ (CCTM_v533.exe) at /home/ubuntu/CMAQ/CCTM/scripts/BLD_CCTM_v533_gcc
-    - CMAQ-DDM3D (CCTM_DDM3D_v533.exe) at /home/ubuntu/CMAQ-DDM3D/CCTM/scripts/BLD_CCTM_v533_DDM3D_gcc
-    - CMAQ-ISAM (CCTM_ISAM_v533.exe) at /home/ubuntu/CMAQ-ISAM/CCTM/scripts/BLD_CCTM_v533_ISAM_gcc
-    - WRF-CMAQ (wrf.exe) at /home/ubuntu/WRF-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.3/test/em_real
-    
-The default cases represent the standard benchmark cases over the Southeast U.S. with a horizontal resolution of 12 km. See https://www.epa.gov/cmaq/cmaq-inputs-and-test-case-data for details.     
-+ Preprocessing tools: MCIP (/home/centos/CMAQ/PREP/mcip), create_omi (/home/centos/CMAQ/PREP/create_omi), BCON (/home/centos/CMAQ/PREP/bcon), ICON (/home/centos/CMAQ/PREP/icon), SMOKE (/home/centos/PREPRO/SMOKE), WPS (/home/centos/PREPRO/WPS), WRF (/home/centos/PREPRO/WPS) 
-+ Postprocessing tools: VERDI v2.1, IDV. 
-+ The AMI works with AWS-parallelcluster v3.1.3       
-
-___________________________________________________________________________________________________________________________________________
-**Air quality modeling with CMAQ & WRF-CMAQ on AWS**
-  
-:black_medium_square: v1.2        
-+ It has pre-compiled versions of CMAQ v5.3.3 optimized for Intel Ice Lake/Cascade Lake/Skylake processors with the following executables:  
-    - Standard CMAQ (CCTM_v533.exe) at /home/ubuntu/CMAQ/CCTM/scripts/BLD_CCTM_v533_gcc
-    - CMAQ-DDM3D (CCTM_DDM3D_v533.exe) at /home/ubuntu/CMAQ-DDM3D/CCTM/scripts/BLD_CCTM_v533_DDM3D_gcc
-    - CMAQ-ISAM (CCTM_ISAM_v533.exe) at /home/ubuntu/CMAQ-ISAM/CCTM/scripts/BLD_CCTM_v533_ISAM_gcc
-    - WRF-CMAQ (standard output) at /home/ubuntu/WRF-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.4/test/em_real 
-    - WRF-CMAQ (output uses the latest HDF5 compression algorithm) at /home/ubuntu/WRFPIO-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.4/test/em_real
-+ It has pre-compiled versions of CAMx v7.20:  
-    
-The default cases represent the standard benchmark cases over the Southeast U.S. with a horizontal resolution of 12 km. See https://www.epa.gov/cmaq/cmaq-inputs-and-test-case-data for details.     
-+ Preprocessing tools: MCIP (/home/ubuntu/CMAQ/PREP/mcip), create_omi (/home/ubuntu/CMAQ/PREP/create_omi), BCON (/home/ubuntu/CMAQ/PREP/bcon), ICON (/home/ubuntu/CMAQ/PREP/icon), SMOKE (/home/ubuntu/PREPRO/SMOKE), WPS (/home/ubuntu/PREPRO/WPS), WRF (/home/ubuntu/PREPRO/WPS) 
-+ Postprocessing tools: VERDI v2.1.3, IDV v6.1. 
-+ The AMI works with AWS-parallelcluster v3.2       
-
-___________________________________________________________________________________________________________________________________________
-**Numerical prediction with WRF, MPAS, CMAQ & CAMx on AWS (AMD EPYC3)**
-  
-:black_medium_square: v2.0.0        
-+ It has pre-compiled versions of WRF-4.4 optimized for AMD Zen3processors (e.g. hpc6a.48xlarge instances) with the following executable:  
-    - WRF-4.4 ARW (/home/ubuntu/WRF-4.4). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on January 1st (2022)     
-+ It has pre-compiled versions of WRF-Chem (4.4) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
+:black_medium_square: v5.1.0        
++ It has pre-compiled versions of WRF-4.5.2 optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
+    - WRF-4.5.2 ARW (/home/ubuntu/WRF-4.5). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on May 1st (2023)     
++ It has pre-compiled versions of WRF-Chem (4.5.2) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
     - WRF-Chem - KPP1 (/home/ubuntu/WRF-CHEM)  
-+ It has pre-compiled versions of CMAQ v5.3.3 optimized for Intel Ice Lake/Cascade Lake/Skylake processors with the following executables:  
-    - Standard CMAQ (CCTM_v533.exe) at /home/ubuntu/CMAQ/CCTM/scripts/BLD_CCTM_v533_gcc
-    - CMAQ-DDM3D (CCTM_DDM3D_v533.exe) at /home/ubuntu/CMAQ-DDM3D/CCTM/scripts/BLD_CCTM_v533_DDM3D_gcc
-    - CMAQ-ISAM (CCTM_ISAM_v533.exe) at /home/ubuntu/CMAQ-ISAM/CCTM/scripts/BLD_CCTM_v533_ISAM_gcc
-    - WRF-CMAQ (wrf.exe) at /home/ubuntu/WRF-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.3/test/em_real   
-The default cases represent the standard benchmark cases over the Southeast U.S. with a horizontal resolution of 12 km. See https://www.epa.gov/cmaq/cmaq-inputs-and-test-case-data for details.     
++ It includes CMAQv5.4 to perform air quality modeling
++ Script to accelerate the download of GFS data
++ Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS) 
++ Postprocessing tools: WRF-python, ARWPost, GrADS, and IDV  
 + Data Assimilation tool: WRFDA (/home/ubuntu/DA/WRFDA) 
 + WRF non-linear, WRF tangent-linear and WRF adjoint models app: WRFPLUS (/home/ubuntu/DA/WRFPLUS)
-+ Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM), MCIP (/home/ubuntu/CMAQ/PREP/mcip), create_omi (/home/ubuntu/CMAQ/PREP/create_omi), BCON (/home/ubuntu/CMAQ/PREP/bcon), ICON (/home/ubuntu/CMAQ/PREP/icon), SMOKE (/home/ubuntu/PREPRO/SMOKE), WPS (/home/ubuntu/PREPRO/WPS) 
-+ Postprocessing tools: NCL, WRF-python, ARWPost, GrADS, IDV (v6.0), VERDI v2.1.3 
-+ The AMI works with AWS-parallelcluster v3.1.4  
-___________________________________________________________________________________________________________________________________________
-**Numerical prediction with WRF, MPAS, CMAQ & CAMx on AWS (AMD EPYC3)**
-  
-:black_medium_square: v2.0.1        
-+ It has pre-compiled versions of WRF-4.4 optimized for AMD Zen3processors (e.g. hpc6a.48xlarge instances) with the following executable:  
-    - WRF-4.4 ARW (/home/ubuntu/WRF-4.4). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on January 1st (2022)     
-+ It has pre-compiled versions of WRF-Chem (4.4) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
-    - WRF-Chem - KPP1 (/home/ubuntu/WRF-CHEM)  
-+ It has pre-compiled versions of CMAQ v5.3.3 optimized for Intel Ice Lake/Cascade Lake/Skylake processors with the following executables:  
-    - Standard CMAQ (CCTM_v533.exe) at /home/ubuntu/CMAQ/CCTM/scripts/BLD_CCTM_v533_gcc
-    - CMAQ-DDM3D (CCTM_DDM3D_v533.exe) at /home/ubuntu/CMAQ-DDM3D/CCTM/scripts/BLD_CCTM_v533_DDM3D_gcc
-    - CMAQ-ISAM (CCTM_ISAM_v533.exe) at /home/ubuntu/CMAQ-ISAM/CCTM/scripts/BLD_CCTM_v533_ISAM_gcc
-    - WRF-CMAQ (wrf.exe) at /home/ubuntu/WRF-CMAQ/CMAQ-v5.3.3/CCTM/scripts/WRF-4.4/test/em_real   
-The default cases represent the standard benchmark cases over the Southeast U.S. with a horizontal resolution of 12 km. See https://www.epa.gov/cmaq/cmaq-inputs-and-test-case-data for details.     
-+ Data Assimilation tool: WRFDA (/home/ubuntu/DA/WRFDA) 
-+ WRF non-linear, WRF tangent-linear and WRF adjoint models app: WRFPLUS (/home/ubuntu/DA/WRFPLUS)
-+ Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM), MCIP (/home/ubuntu/CMAQ/PREP/mcip), create_omi (/home/ubuntu/CMAQ/PREP/create_omi), BCON (/home/ubuntu/CMAQ/PREP/bcon), ICON (/home/ubuntu/CMAQ/PREP/icon), SMOKE (/home/ubuntu/PREPRO/SMOKE), WPS (/home/ubuntu/PREPRO/WPS) 
-+ Postprocessing tools: NCL, WRF-python, ARWPost, GrADS, IDV (v6.0), VERDI v2.1.3 
-+ The AMI works with AWS-parallelcluster v3.1.4  
++ The AMI works with AWS-parallelcluster v3.8.0  
+
+
+
