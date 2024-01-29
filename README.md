@@ -65,7 +65,7 @@ ________________________________________________________________________________
 + It has pre-compiled versions of WRF-Chem (4.5.1) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
     - WRF-Chem - KPP1 (/home/ubuntu/WRF-CHEM)  
 + It includes CMAQv5.4 to perform air quality modeling
-+ Script to accelerate the download of GFS data
++ Script to accelerate the download of GFS data (/home/ubuntu/DATA)
 + Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS; DM - /home/ubuntu/PREPRO/WPS_DM) 
 + Postprocessing tools: WRF-python, ARWPost, GrADS, and IDV  
 + Data Assimilation tool: WRFDA (/home/ubuntu/DA/WRFDA) 
@@ -80,7 +80,7 @@ ________________________________________________________________________________
 + It has pre-compiled versions of WRF-Chem (4.5.2) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
     - WRF-Chem - KPP1 (/home/ubuntu/WRF-CHEM)  
 + It includes CMAQv5.4 to perform air quality modeling
-+ Script to accelerate the download of GFS data
++ Script to accelerate the download of GFS data (/home/ubuntu/DATA)
 + Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS) 
 + Postprocessing tools: WRF-python, ARWPost, GrADS, and IDV  
 + Data Assimilation tool: WRFDA (/home/ubuntu/DA/WRFDA) 
