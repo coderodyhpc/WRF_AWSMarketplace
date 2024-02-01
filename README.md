@@ -80,7 +80,7 @@ ________________________________________________________________________________
 + The AMI has pre-compiled versions of WRF-Chem (4.5.2) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
     - WRF-Chem - KPP1 (/home/ubuntu/WRF-CHEM)  
 + The AMI includes CMAQv5.4 to perform air quality modeling
-+ There are 3 scripts to accelerate the download of meteorological data at /home/ubuntu/DATA: GFS_download for interactive download of GFS files, download_NAM for interactive download of NAM files, and batch_GFS for downloading GFS files with a one-line command. 
++ There are 3 scripts to accelerate the download of meteorological data at /home/ubuntu/DATA: GFS_download for interactive download of GFS files, download_NAM for interactive download of NAM files, and GFS_batch for downloading GFS files with a one-line command. 
 + Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS) 
 + Postprocessing tools: WRF-python, ARWPost, GrADS, and IDV  
 + Data Assimilation tool: WRFDA (/home/ubuntu/DA/WRFDA) 
