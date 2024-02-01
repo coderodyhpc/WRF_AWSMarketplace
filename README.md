@@ -75,12 +75,12 @@ ________________________________________________________________________________
 **Odycloud Numerical Weather Prediction & Air Quality Modeling on AWS**
   
 :black_medium_square: v5.1.0        
-+ It has pre-compiled versions of WRF-4.5.2 optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
++ The AMI includes pre-compiled versions of WRF-4.5.2 optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
     - WRF-4.5.2 ARW (/home/ubuntu/WRF-4.5). The default case represents the continental U.S. with a horizontal resolution of 8 km (~5 miles) and a nested simulation of the Washington-DC area with a resolution of 1.6 km (~1 mile). The preset computation is for 2 days starting on May 1st (2023)     
-+ It has pre-compiled versions of WRF-Chem (4.5.2) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
++ The AMI has pre-compiled versions of WRF-Chem (4.5.2) optimized for Intel Scalable (Skylake/Cascade Lake/Ice Lake) processors with the following executable:  
     - WRF-Chem - KPP1 (/home/ubuntu/WRF-CHEM)  
-+ It includes CMAQv5.4 to perform air quality modeling
-+ Script to accelerate the download of GFS data (/home/ubuntu/DATA)
++ The AMI includes CMAQv5.4 to perform air quality modeling
++ There are 3 scripts to accelerate the download of meteorological data at /home/ubuntu/DATA: GFS_download for interactive download of GFS files, download_NAM for interactive download of NAM files, and batch_GFS for downloading GFS files with a one-line command. 
 + Preprocessing tools: WPS (SM - /home/ubuntu/PREPRO/WPS) 
 + Postprocessing tools: WRF-python, ARWPost, GrADS, and IDV  
 + Data Assimilation tool: WRFDA (/home/ubuntu/DA/WRFDA) 
