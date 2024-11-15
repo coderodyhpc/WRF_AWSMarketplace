@@ -11,7 +11,7 @@ ________________________________________________________________________________
 + The AMI includes CMAQv5.5 to perform air quality modeling in 4 different flavors: 
     - cb6r5_ae7_aq_m3dry, cb6r5_ae7_aq_stage, cracmm2_m3dry and cracmm2_stage     
     - Batch and files to run the CRACMM2 and cb6r5_ae7_aq benchmarks for the 12NE3 domain
-+ The AMI includes scripts to accelerate the download of meteorological data at /home/ubuntu/DATA: GFS_download for interactive download of GFS files and download_NAM for interactive download of NAM files
++ The AMI includes scripts to accelerate the download of meteorological data at /home/ubuntu/DATA: GFS_download for interactive download of GFS files 
 + Preprocessing tools: WPS (/home/ubuntu/PREPRO/WPS)  
-+ Postprocessing tools: GrADS, ARWpost, WRF-python 
++ Postprocessing tools: ARWpost, WRF-python 
 
