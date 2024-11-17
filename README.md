@@ -1,7 +1,7 @@
 # WRF_AWSMarketplace
 
 ___________________________________________________________________________________________________________________________________________
-**Numerical Weather Prediction & Air Quality Modeling Graviton4 with Odycloud support**
+**Numerical Weather Prediction & Air Quality Modeling (Graviton4) with Odycloud support**
   
 :white_medium_square: v6.0.0        
 + The AMI works with AWS-parallelcluster v3.11.0 (O.S. Ubuntu 22.04) 
