@@ -1,35 +1,12 @@
 # GUI_AWSMarketplace
 
-**Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton3 & Graviton3E**
+**Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton 3 & 4**
 
-:white_medium_square: New features included in v0.1.3
-+ The GUI now admits nested domains for WRF simulations.
-___________________________________________________________________________________________________________________________________________
-:white_medium_square: New features included in v0.1.2
-+ Enhancements to many widgets.
-+ The GUI now allow the superimposition of borders, coastlines, lakes, U.S. national parks and urban areas as an aid to postprocessing.
-+ PM and AQIs outputs allow several color palettes.
-+ The updated 'Export' widget now facilitates orientation set-up and includes several new paper formats.
-___________________________________________________________________________________________________________________________________________
-:white_medium_square: New features included in v0.1.1
-+ Rendering has been accelerated.
-+ CMAQ postprocessing includes visualization for all species.
-+ The console for CMAQ visualization has been upgraded.
-+ A new tool to export images has been added to the GUI.
-___________________________________________________________________________________________________________________________________________
-:black_medium_square: v0.1.0
-The GUI allows users to control all aspects of the modeling process with WRF and CMAQ.
+:black_medium_square: v1.0.0
+The GUI allows users to control the modeling process with WRF, CMAQ and MPAS (global meshes).
 The AMI includes:
-+ Pre-compiled WRF-4.4.2 optimized for Graviton3 processors  
-+ Pre-compiled CMAQv5.4 optimized for Graviton3 processors  
-+ All files necessary to run the 2018 N.E. benchmark (12NE3) for CMAQv5.4
-+ Implementation to run the CONUS benchmark (12US1) for CMAQv5.4 (files with meteorological data and emissions must be uploaded before performing the benchmark)
++ Pre-compiled WRF-4.6 and preprocessing tools  
++ Pre-compiled CMAQv5.5 and preprocessing tools  
++ Pre-compiled MPAS-8.2 and preprocessing tools  
 
-:white_medium_square: New features included in v0.1.0
-+ The interface for WRF is fully functional for a single domain.
-+ Download of meteorological data now includes NAM and GDAS files in addition to GFS (0.25 & 0.5 deg resolution).
-+ The interface with CMAQ includes the option to create a new case based on WRF output.
-+ MCIP, ICON and BCON admit the customization of several parameters.
-
-___________________________________________________________________________________________________________________________________________
 
