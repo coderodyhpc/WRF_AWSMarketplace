@@ -15,10 +15,12 @@ AMI includes:
 + Selection of main WRF parameters 
 + Running the 3 components of WPS: geogrib, ungrib, and metgrid
 + Automatic run of WRF based on the available number of cores
+  
 ◻️ WRF interface features:
 + The CMAQ interface will automatically pick up mesh parameters based on the WRF outputfile
 + The MCIP, ICON and BCON submenus allow model users the customization of several parameters before proceeding with the computations
 + Output hundreds of species on a GIS framework
+  
 ◻️ MPAS interface features:
 + It works with global meshes
 + The interface will set up most parameters based on mesh selection and number of available cores  
