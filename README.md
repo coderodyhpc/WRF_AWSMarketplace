@@ -10,16 +10,18 @@ AMI includes:
 + Pre-compiled MPAS-8.2  
 
 ◻️ WRF interface features:
-+ The interface allows model-users the generation of single and nested domains.
-+ Download of meteorological data now includes GFS (0.25, 0.5 & 1 deg resolutions), NAM and GDAS.
++ Generation of single and nested domains on a GIS framework
++ Download of meteorological data now including GFS (0.25, 0.5 & 1 deg resolutions), NAM and GDAS files
 + Selection of main WRF parameters 
-+ Running the 3 components of WPS: geogrib, ungrib, and metgrid
++ Option to run all or any of the 3 components of WPS: geogrib, ungrib, and metgrid
 + Automatic run of WRF based on the available number of cores
++ Widget to transfer all generated files to a S3 bucket (it also includes the ability to create a new bucket)
   
 ◻️ WRF interface features:
 + The CMAQ interface will automatically pick up mesh parameters based on the WRF outputfile
 + The MCIP, ICON and BCON submenus allow model users the customization of several parameters before proceeding with the computations
-+ Output hundreds of species on a GIS framework
++ Visualization of the results for hundreds of species on a GIS framework
++ Widget to transfer all generated files to a S3 bucket (it also includes the ability to create a new bucket)
   
 ◻️ MPAS interface features:
 + It works with global meshes
