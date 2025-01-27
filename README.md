@@ -17,7 +17,7 @@ AMI includes:
 + Automatic run of WRF based on the available number of cores
 + Widget to transfer all generated files to a S3 bucket (it also includes the ability to create a new bucket)
   
-◻️ WRF interface features:
+◻️ CMAQ interface features:
 + The CMAQ interface will automatically pick up mesh parameters based on the WRF outputfile
 + The MCIP, ICON and BCON submenus allow model users the customization of several parameters before proceeding with the computations
 + Visualization of the results for hundreds of species on a GIS framework
