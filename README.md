@@ -7,7 +7,7 @@ The GUI allows users to control the modeling process with WRF, CMAQ and MPAS (gl
 AMI includes:
 + Pre-compiled WRF-4.6 and preprocessing tools  
 + Pre-compiled CMAQv5.5 and preprocessing tools  
-+ Pre-compiled MPAS-8.2 and preprocessing tools  
++ Pre-compiled MPAS-8.2  
 
 ◻️ WRF interface features:
 + The interface allows model-users the generation of single and nested domains.
