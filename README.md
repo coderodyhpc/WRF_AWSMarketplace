@@ -15,15 +15,15 @@ AMI includes:
 + Selection of main WRF parameters 
 + Option to run all or any of the 3 components of WPS: geogrib, ungrib, and metgrid
 + Automatic run of WRF based on the available number of cores
-+ Widget to transfer all generated files to a S3 bucket (it also includes the ability to create a new bucket)
++ Widget to transfer all generated files to a S3 bucket (it also includes the ability to create a new bucket or enter credentials)
   
 ◻️ CMAQ interface features:
-+ The CMAQ interface will automatically pick up mesh parameters based on the WRF outputfile
++ The CMAQ interface will automatically pick up mesh parameters based on the WRF output file
 + The MCIP, ICON and BCON submenus allow model users the customization of several parameters before proceeding with the computations
 + Visualization of the results for hundreds of species on a GIS framework
-+ Widget to transfer all generated files to a S3 bucket (it also includes the ability to create a new bucket)
++ Widget to transfer all generated files to a S3 bucket (it also includes the ability to create a new bucket or enter credentials)
   
 ◻️ MPAS interface features:
 + It works with global meshes
-+ The interface will set up most parameters based on mesh selection and number of available cores  
++ The interface will set up most parameters based on mesh selection and available cores  
 
