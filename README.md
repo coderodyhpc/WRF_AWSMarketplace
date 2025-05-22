@@ -2,12 +2,14 @@
 
 **Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton 3 & 4**
 
+:black_medium_square: v1.1.0
++ CMAQ can now use CRACMM2 mechanism in addition to Carbon Bond 6   
+
 :black_medium_square: v1.0.0
-The GUI allows users to control the modeling process with WRF, CMAQ and MPAS (global meshes).
+The GUI allows users to control the modeling process with WRF, CMAQ and several preprocessing apps.
 AMI includes:
 + Pre-compiled WRF-4.6 and preprocessing tools  
 + Pre-compiled CMAQv5.5 and preprocessing tools  
-+ Pre-compiled MPAS-8.2  
 
 ◻️ WRF interface features:
 + Generation of single and nested domains on a GIS framework
@@ -23,7 +25,3 @@ AMI includes:
 + Visualization of the results for hundreds of species on a GIS framework
 + Widget to transfer all generated files to a S3 bucket (it also includes the ability to create a new bucket or enter credentials)
   
-◻️ MPAS interface features:
-+ It works with global meshes
-+ The interface will set up most parameters based on mesh selection and available cores  
-
