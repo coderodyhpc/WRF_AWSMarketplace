@@ -2,10 +2,12 @@
 
 **Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton 3 & 4**
 
-:black_medium_square: v1.1.0
+:black_medium_square: v1.1
++ O/S has been upgraded to Ubuntu 24.04
++ QGIS has been upgraded to v3.42.3
 + CMAQ can now use CRACMM2 mechanism in addition to Carbon Bond 6   
 
-:black_medium_square: v1.0.0
+:black_medium_square: v1.0
 The GUI allows users to control the modeling process with WRF, CMAQ and several preprocessing apps.
 AMI includes:
 + Pre-compiled WRF-4.6 and preprocessing tools  
