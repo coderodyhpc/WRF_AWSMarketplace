@@ -2,6 +2,9 @@
 
 **Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton 3 & 4**
 
+:black_medium_square: v1.2
++ Experimental integration of WRF-CMAQ (Carbon Bond 6 mechanism) with the GUI   
+
 :black_medium_square: v1.1
 + O/S has been upgraded to Ubuntu 24.04
 + QGIS has been upgraded to v3.42.3
