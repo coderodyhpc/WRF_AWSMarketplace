@@ -1,6 +1,6 @@
 # GUI_AWSMarketplace
 
-**Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton 3 & 4**
+**Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton4**
 
 :black_medium_square: v1.3
 + The generation of CRACMM2 files (for regrid purposes) from Carbon Bond 6 concentration files has been streamlined  
