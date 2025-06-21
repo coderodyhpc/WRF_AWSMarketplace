@@ -2,6 +2,10 @@
 
 **Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton4**
 
+:black_medium_square: v1.4
++ WRF has been upgraded to v4.7  
++ Several bugs have been fixed   
+
 :black_medium_square: v1.3
 + The generation of CRACMM2 files (for regrid purposes) from Carbon Bond 6 concentration files has been streamlined  
 + Experimental integration of WRF-CMAQ with the CRACMM2 mechanism   
