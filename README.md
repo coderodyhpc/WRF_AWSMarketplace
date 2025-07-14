@@ -3,8 +3,12 @@
 **Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton4**
 
 :black_medium_square: v1.4
-+ WRF has been upgraded to v4.7  
-+ Several bugs have been fixed   
++ Several upgrades to the postprocressing tools: It is now feasible to export snapshots of the map canvas and to generate csv files with hourly values for the WRF output variables
++ The CMAQ interface includes several upgrades mainly targeting simulation using the CRACMM2 chemical mechanism as the GUI facilitates the conversions of CB6R5 files to CRACMM2 regridding purposes
++ It is feasible to directly download NHEMIS files and time-shift them
+
+:black_medium_square: v1.4
++ WRF and WRF-CMAQ have been upgraded to v4.7  
 
 :black_medium_square: v1.3
 + The generation of CRACMM2 files (for regrid purposes) from Carbon Bond 6 concentration files has been streamlined  
