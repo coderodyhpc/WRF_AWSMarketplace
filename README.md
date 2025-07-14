@@ -17,6 +17,7 @@
 + O/S has been upgraded to Ubuntu 24.04
 + QGIS has been upgraded to v3.42.3
 + CMAQ can now use CRACMM2 mechanism in addition to Carbon Bond 6   
++ The CMAQ set up menu allows model-users to select the chemical mechanism (CB6R5 vs CRACMM2) and deposition model (m3dry vs stage) 
 
 :black_medium_square: v1.0
 The GUI allows users to control the modeling process with WRF, CMAQ and several preprocessing apps.
@@ -34,9 +35,10 @@ AMI includes:
   
 ◻️ CMAQ interface features:
 + The CMAQ interface will automatically pick up mesh parameters based on the WRF output file
-+ The set up menu allows model-users to select the simulation and grid names, starting date/time and duration of the simulation 
-+ The MCIP, ICON and BCON submenus allow model users the customization of several parameters before proceeding with the computations
-+ Emission streams can be either loaded or the GUI includes a widget to generate emission streams from a universal inventory 
++ The set up menu allows model-users to select simulation and grid names, starting date/time and duration of the simulation 
++ The MCIP submenus allow model users the customization of several parameters (e.g. BTRIM) before prreprocessing the meteorological data
++ The ICON and BCON interfacess facilitate the generation of boundary conditions either from profiles or via regridding 
++ Emission streams can be either loaded or the GUI includes a widget to generate emission streams from universal inventories (biogenic and anthropogenic emissions are available) 
 + The GUI allows model users to write the batch file and run CMAQ with all available cores 
 + Visualization of the results for hundreds of species on a GIS framework
 + Widget to transfer all generated files to a S3 bucket (it also includes the ability to create a new bucket or enter credentials)
