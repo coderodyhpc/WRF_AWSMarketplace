@@ -34,7 +34,10 @@ AMI includes:
   
 ◻️ CMAQ interface features:
 + The CMAQ interface will automatically pick up mesh parameters based on the WRF output file
++ The set up menu allows model-users to select the simulation and grid names, starting date/time and duration of the simulation 
 + The MCIP, ICON and BCON submenus allow model users the customization of several parameters before proceeding with the computations
++ Emission streams can be either loaded or the GUI includes a widget to generate emission streams from a universal inventory 
++ The GUI allows model users to write the batch file and run CMAQ with all available cores 
 + Visualization of the results for hundreds of species on a GIS framework
 + Widget to transfer all generated files to a S3 bucket (it also includes the ability to create a new bucket or enter credentials)
   
