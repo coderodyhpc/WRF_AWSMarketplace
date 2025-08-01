@@ -2,6 +2,14 @@
 
 **Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton4**
 
+:black_medium_square: v2.0
+Version 2.0 introduces an interface with MPAS that allows model users to perform global and regional meteorological simulations. The interface features include: 
++ Display of the cell centers in a global for better visualization of mesh distribution
++ Ability to shift mesh refinement center & angle for easier visualization
++ Creation of regional mesh from both global and refined meshes
++ Automatic update of namelist and stream files to run both init_atmosphere and atmosphere apps
++ Postprocessing tool shows 50+ variable outputs and faciliates the creation of snapshots (PNG, SVG, PDF formats)  
+
 :black_medium_square: v1.5
 + Version 1.5 includes several upgrades to the postprocressing tools: (i) It is now feasible to export snapshots of the map canvas and to generate csv files with hourly values for the WRF and WRF-CMAQ output variables; (ii) the interface with CMAQ has been streamlined and it is now easier to export both snapshots and CSV files with the species averaged-hourly values    
 + The CMAQ interface includes several upgrades mainly targeting simulation using the CRACMM2 chemical mechanism as the GUI facilitates the conversions of CB6R5 files to CRACMM2 for regridding purposes
