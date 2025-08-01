@@ -2,7 +2,7 @@
 
 **Graphical User Interface (GUI) for Numerical Predictions in the public cloud: Graviton4**
 
-:black_medium_square: v2.0
+:black_medium_square: 
 Version 2.0 introduces an interface with MPAS that allows model users to perform global and regional meteorological simulations. The interface features include: 
 + Display of the cell centers in a global for better visualization of mesh distribution
 + Ability to shift mesh refinement center & angle for easier visualization
