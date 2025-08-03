@@ -4,9 +4,10 @@
 
 :black_medium_square: 
 Version 2.0 introduces an interface with MPAS that allows model users to perform global and regional meteorological simulations. The interface features include: 
++ Worl map to aid in pre and postprocessing tasks
 + Display of the cell centers in a global for better visualization of mesh distribution
-+ Ability to shift mesh refinement center & angle for easier visualization
-+ Creation of regional mesh from both global and refined meshes
++ Ability to shift mesh refinement center & angle for a more accurate positioning of refined meshes 
++ Ability to create regional meshes from both global and refined meshes
 + Automatic update of namelist and stream files to run both init_atmosphere and atmosphere apps
 + Postprocessing tool shows 50+ variable outputs and faciliates the creation of snapshots (PNG, SVG, PDF formats)  
 
