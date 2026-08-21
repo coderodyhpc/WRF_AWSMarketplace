@@ -17,7 +17,7 @@ ________________________________________________________________________________
 + The AMI includes 3 scripts to accelerate the download of meteorological data at /home/ubuntu/DATA: GFS_download and NAM_download for interactive download of GFS and NAM files, respectively; download_GFS for downloading of GFS files via a batch call 
 + Preprocessing tools: WPS (/home/ubuntu/PREPRO/WPS)  
 + Postprocessing tools: ARWpost, WRF-python
-Contact us (support@odycloud-hpc.com) if you have any questions. More specifically, send us an email if you are not sure how to use WRF-CMAQ or if you need any tailoring to the bash scripts driving this type of simulation. 
+<p>Contact us (support@odycloud-hpc.com) if you have any questions. More specifically, send us an email if you are not sure how to use WRF-CMAQ or if you need any tailoring to the bash scripts driving this type of simulation.</p> 
 ___________________________________________________________________________________________________________________________________________
 **Odycloud NWP & AQM with added preprocessing apps and support**
   
