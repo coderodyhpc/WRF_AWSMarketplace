@@ -14,10 +14,10 @@ ________________________________________________________________________________
 + The AMI includes a new compilation of WRFv4.8-CMAQv5.5 to perform coupled numerical weather predictions - air quality modeling with 2 different combinations: 
     - Subdirectory /home/ubuntu/WRF-CMAQ (chemical mechanism: cb6r5_ae7_aq; deposition module: m3_dry)     
     - Subdirectory /home/ubuntu/WRF-CRACMM (chemical mechanism: cracmm2; deposition module: stage)
-Contact us (support@odycloud-hpc.com) 
 + The AMI includes 3 scripts to accelerate the download of meteorological data at /home/ubuntu/DATA: GFS_download and NAM_download for interactive download of GFS and NAM files, respectively; download_GFS for downloading of GFS files via a batch call 
 + Preprocessing tools: WPS (/home/ubuntu/PREPRO/WPS)  
 + Postprocessing tools: ARWpost, WRF-python
+Contact us (support@odycloud-hpc.com) if you have any questions. More specifically, send us an email if you are not sure how to use WRF-CMAQ or if you need any tailoring to the bash scripts driving this type of simulation. 
 ___________________________________________________________________________________________________________________________________________
 **Odycloud NWP & AQM with added preprocessing apps and support**
   
